@@ -9,7 +9,7 @@ os.sys.path.insert(0, parentdir)
 
 import collections
 import math
-from gym import spaces
+from gymnasium import spaces
 import numpy as np
 from pybullet_envs.minitaur.envs import minitaur_gym_env
 

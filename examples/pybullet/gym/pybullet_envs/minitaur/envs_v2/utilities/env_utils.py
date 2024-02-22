@@ -6,7 +6,7 @@ from __future__ import print_function
 
 import collections
 import gin
-from gym import spaces
+from gymnasium import spaces
 import numpy as np
 import traceback
 import logging

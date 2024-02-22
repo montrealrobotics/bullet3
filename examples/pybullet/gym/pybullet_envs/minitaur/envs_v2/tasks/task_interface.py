@@ -5,7 +5,7 @@
 import abc
 from typing import Sequence
 
-import gym
+import gymnasium as gym
 
 from pybullet_envs.minitaur.envs_v2.sensors import sensor
 

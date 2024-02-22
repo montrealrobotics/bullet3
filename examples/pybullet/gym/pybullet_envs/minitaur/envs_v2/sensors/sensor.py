@@ -11,7 +11,7 @@ from __future__ import print_function
 from typing import Any, Iterable, Optional, Sequence, Text, Tuple, Union
 
 import gin
-import gym
+import gymnasium as gym
 import numpy as np
 
 from pybullet_envs.minitaur.robots import robot_base

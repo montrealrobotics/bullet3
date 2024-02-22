@@ -4,7 +4,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import gym
+import gymnasium as gym
 import gin
 from pybullet_envs.minitaur.envs_v2.utilities import env_utils
 

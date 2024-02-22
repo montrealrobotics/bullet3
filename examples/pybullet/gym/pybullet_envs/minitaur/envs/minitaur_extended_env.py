@@ -5,7 +5,7 @@ the experimental branch.
 
 """
 
-from gym import spaces
+from gymnasium import spaces
 import numpy as np
 
 from pybullet_envs.minitaur.envs.minitaur_reactive_env import MinitaurReactiveEnv

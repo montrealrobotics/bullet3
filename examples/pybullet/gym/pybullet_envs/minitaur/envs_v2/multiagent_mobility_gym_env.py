@@ -6,7 +6,7 @@ import collections
 import time
 
 import gin
-from gym import spaces
+from gymnasium import spaces
 import numpy as np
 
 from pybullet_utils import bullet_client

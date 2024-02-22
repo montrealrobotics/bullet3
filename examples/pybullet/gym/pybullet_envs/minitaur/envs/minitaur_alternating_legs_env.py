@@ -8,7 +8,7 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(os.path.dirname(currentdir))
 os.sys.path.insert(0, parentdir)
 
-from gym import spaces
+from gymnasium import spaces
 import numpy as np
 from pybullet_envs.minitaur.envs import minitaur_gym_env
 

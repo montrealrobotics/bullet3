@@ -9,7 +9,7 @@ import parser
 import time
 import os
 import numpy as np
-import gym
+import gymnasium as gym
 
 import arspb.logz as logz
 import ray

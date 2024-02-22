@@ -4,7 +4,7 @@ import copy
 import math
 from typing import Sequence
 import gin
-import gym
+import gymnasium as gym
 import numpy as np
 
 from pybullet_envs.minitaur.robots import laikago_kinematic_constants

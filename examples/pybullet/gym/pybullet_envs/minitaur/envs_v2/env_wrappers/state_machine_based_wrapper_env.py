@@ -6,7 +6,7 @@ from __future__ import print_function
 
 import enum
 import gin
-import gym
+import gymnasium as gym
 import numpy as np
 
 NUM_LEGS = 4

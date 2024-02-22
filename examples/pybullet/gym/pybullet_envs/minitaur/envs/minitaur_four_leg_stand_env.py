@@ -5,7 +5,7 @@ import math
 import operator
 import random
 import time
-from gym import spaces
+from gymnasium import spaces
 import numpy as np
 from pybullet_envs.minitaur.envs import minitaur_gym_env
 from pybullet_envs.minitaur.envs import minitaur_logging

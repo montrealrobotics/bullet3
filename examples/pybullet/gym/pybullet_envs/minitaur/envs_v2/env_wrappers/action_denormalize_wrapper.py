@@ -1,7 +1,7 @@
 """Denormalize the action from [-1, 1] to the env.action_space."""
 
 import gin
-import gym
+import gymnasium as gym
 import numpy as np
 
 

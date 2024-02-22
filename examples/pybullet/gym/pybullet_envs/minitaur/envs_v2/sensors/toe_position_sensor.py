@@ -4,7 +4,7 @@
 from typing import Any, Callable, Sequence, Text, Tuple, Type, Union
 
 import gin
-import gym
+import gymnasium as gym
 import numpy as np
 
 from pybullet_envs.minitaur.envs_v2.sensors import sensor

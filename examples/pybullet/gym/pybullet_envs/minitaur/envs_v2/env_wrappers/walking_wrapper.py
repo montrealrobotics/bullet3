@@ -2,7 +2,7 @@
 
 from typing import Any
 import gin
-from gym import spaces
+from gymnasium import spaces
 import numpy as np
 
 from pybullet_envs.minitaur.agents.baseline_controller import com_velocity_estimator

@@ -3,7 +3,7 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-from gym import spaces
+from gymnasium import spaces
 import numpy as np
 import gin
 from pybullet_envs.minitaur.agents.trajectory_generator import tg_simple

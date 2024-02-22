@@ -6,7 +6,7 @@ import collections
 import time
 from typing import Any, Callable, Sequence, Text, Union
 import gin
-import gym
+import gymnasium as gym
 import numpy as np
 
 from pybullet_envs.minitaur.envs_v2 import base_client
@@ -260,9 +260,9 @@ class LocomotionGymEnv(gym.Env):
         self._robot.terminate()
       else:
         self._robot.Terminate()
-    if self._pybullet_client:
-      self._pybullet_client.disconnect()
-      self._pybullet_client = None
+    # if self._pybullet_client:
+    #   self._pybullet_client.disconnect()
+    #   self._pybullet_client = None
 
   def seed(self, seed=None):
     self.np_random, self.np_random_seed = gym.utils.seeding.np_random(seed)

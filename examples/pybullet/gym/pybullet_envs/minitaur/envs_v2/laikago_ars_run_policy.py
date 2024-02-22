@@ -6,7 +6,7 @@ python3 laikago_ars_run_policy.py --expert_policy_file=data/lin_policy_plus_best
 
 """
 import numpy as np
-import gym
+import gymnasium as gym
 import time
 import pybullet_envs
 try:

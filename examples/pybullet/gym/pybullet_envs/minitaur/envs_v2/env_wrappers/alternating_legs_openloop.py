@@ -7,7 +7,7 @@ from __future__ import print_function
 import math
 import attr
 import gin
-from gym import spaces
+from gymnasium import spaces
 import numpy as np
 from pybullet_envs.minitaur.envs.utilities import laikago_pose_utils
 

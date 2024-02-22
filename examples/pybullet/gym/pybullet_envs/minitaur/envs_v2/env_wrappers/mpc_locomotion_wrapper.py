@@ -6,7 +6,7 @@ from typing import Sequence
 
 import dataclasses
 import gin
-import gym
+import gymnasium as gym
 import numpy as np
 
 from pybullet_envs.minitaur.agents.baseline_controller import com_height_estimator

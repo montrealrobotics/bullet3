@@ -5,7 +5,7 @@ import enum
 from typing import Any, Callable, Iterable, Sequence, Type, Text, Union
 
 import gin
-import gym
+import gymnasium as gym
 import numpy as np
 
 from pybullet_envs.minitaur.envs_v2.sensors import sensor

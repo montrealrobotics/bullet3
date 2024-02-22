@@ -7,8 +7,8 @@ from __future__ import print_function
 
 from typing import List
 import gin
-import gym
-from gym import spaces
+import gymnasium as gym
+from gymnasium import spaces
 import numpy as np
 
 from pybullet_envs.minitaur.envs_v2.sensors import sensor

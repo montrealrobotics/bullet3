@@ -5,7 +5,7 @@ from __future__ import division
 from __future__ import print_function
 
 import gin
-import gym
+import gymnasium as gym
 import numpy as np
 
 
